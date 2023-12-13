@@ -9,4 +9,35 @@
 a {
     text-decoration: none;
 }
+body {
+    font-family: "Montserrat", sans-serif;
+}
 
+.top {
+    height: 1024px;
+    background-image: url(img/top-back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.top__content {
+    display: flex;
+}
+
+.top__content__title {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top__content__text {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
