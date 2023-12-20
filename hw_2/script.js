@@ -46,7 +46,6 @@ user.cityofResidence = 'Moscow';
 user.age = 666;
 delete user.cityofResidence;
 let info = prompt('Какую информацию хотите узнать о пользователе?');
-console.log(user[info]);
 alert(user[info]);
 
 let userName = prompt('Ваше имя?')
