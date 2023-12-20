@@ -32,7 +32,7 @@ num++;
 num--;
 alert(num);
 
-let age = prompt('Your age?')
+let age = prompt('Сколько вам лет?')
 alert(age)
 
 const user = {
@@ -43,4 +43,11 @@ const user = {
 
 };
 user.cityofResidence = 'Moscow';
-delete user.age
+user.age = 666;
+delete user.cityofResidence;
+let info = prompt('Какую информацию хотите узнать о пользователе?');
+console.log(user[info]);
+alert(user[info]);
+
+let userName = prompt('Ваше имя?')
+alert(`Привет ${userName} !`)
