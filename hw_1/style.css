@@ -120,4 +120,11 @@ body {
   font-weight: 600;
   line-height: 32px;
   flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */

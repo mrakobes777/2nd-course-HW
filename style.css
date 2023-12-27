@@ -14,9 +14,9 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
-  width: 1440px;
-  height: 1580px;
+.center {
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .top {
@@ -30,12 +30,10 @@ body {
 
 .top__content {
   padding-top: 217px;
-  padding-left: 120px;
 }
 
 .top__content__title {
   display: flex;
-  width: 788.778px;
   height: 125.007px;
   flex-direction: column;
   justify-content: center;
@@ -66,52 +64,52 @@ body {
 }
 
 .top__content__button {
-  width: 234.063px;
-  height: 48.603px;
-  border-radius: 30px;
-  background: #9C0332;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #FFF;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border: #9C0332;
+  width: 234.063px;
+  height: 48.603px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #9C0332;
 }
 
-.product-box {
-  padding-top: 128px;
+.games {
   height: 556px;
-  flex-shrink: 0;
-  background: #000915;
+  background-color: #000915;
+}
+
+.games__nav {
+  padding-top: 128px;
   display: flex;
   gap: 32px;
-  justify-content: center;
 }
 
-.product-box__product {
+.games__nav__box {
+  display: flex;
+  position: relative;
+}
+
+.games__nav__box_image {
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image), lightgray 50%/cover no-repeat;
   width: 379px;
   height: 300px;
-  flex-shrink: 0;
+  border: none;
 }
 
-.product-box__product__image {
-  position: absolute;
-  flex-shrink: 0;
+.games__nav__box_image :hover {
   border-radius: 16px;
-  background-color: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
-}
-
-.product-box__product__image:hover,
-:focus {
   border: 3px solid #44D2FF;
 }
 
-.product-box__product__name {
-  position: relative;
-  left: 32px;
-  top: 236px;
-  display: flex;
-  height: 31.639px;
+.games__nav__box_number {
+  height: 32px;
   justify-content: center;
   flex-shrink: 0;
   color: #FFF;
@@ -119,5 +117,7 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
-  flex-direction: column;
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
 }/*# sourceMappingURL=style.css.map */
