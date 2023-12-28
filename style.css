@@ -27,14 +27,12 @@ body {
   background-repeat: no-repeat;
   outline: none;
 }
-
 .top__content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding-top: 217px;
 }
-
 .top__content__title {
   display: flex;
   height: 125.007px;
@@ -47,7 +45,6 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-
 .top__content__text {
   padding-top: 32px;
   padding-bottom: 44px;
@@ -57,15 +54,6 @@ body {
   font-weight: 300;
   line-height: 32px;
 }
-
-.bold {
-  color: #FFF;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
-}
-
 .top__content__button {
   display: flex;
   justify-content: center;
@@ -80,10 +68,18 @@ body {
   flex-shrink: 0;
   border-radius: 30px;
   background: #9C0332;
+  padding-bottom: 494px;
+}
+
+.bold {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
 }
 
 .games {
-  height: 556px;
   background-color: #000915;
 }
 
