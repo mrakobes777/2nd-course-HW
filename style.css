@@ -29,6 +29,9 @@ body {
 }
 
 .top__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   padding-top: 217px;
 }
 
@@ -118,4 +121,14 @@ body {
   position: absolute;
   left: 32px;
   bottom: 32px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .games__nav__box_image {
+    width: 343px;
+  }
 }/*# sourceMappingURL=style.css.map */
