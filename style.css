@@ -20,12 +20,12 @@ body {
 }
 
 .top {
-  height: 1024px;
   background-image: url(img/top-back.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   outline: none;
+  padding-bottom: 494px;
 }
 .top__content {
   display: flex;
@@ -68,7 +68,6 @@ body {
   flex-shrink: 0;
   border-radius: 30px;
   background: #9C0332;
-  padding-bottom: 494px;
 }
 
 .bold {
@@ -82,30 +81,25 @@ body {
 .games {
   background-color: #000915;
 }
-
 .games__nav {
   padding-top: 128px;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
 }
-
 .games__nav__box {
   display: flex;
   position: relative;
 }
-
 .games__nav__box_image {
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image), lightgray 50%/cover no-repeat;
   border: none;
 }
-
 .games__nav__box_image:hover {
   border-radius: 16px;
   border: 3px solid #44D2FF;
 }
-
 .games__nav__box_number {
   justify-content: center;
   flex-shrink: 0;

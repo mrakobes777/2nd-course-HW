@@ -24,12 +24,13 @@ body {
 
 
 .top {
-    height: 1024px;
+    
     background-image: url(img/top-back.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     outline: none;
+    padding-bottom: 494px;
 
     &__content {
         display: flex;
@@ -49,7 +50,7 @@ body {
             font-weight: 700;
             line-height: normal;
         }
-        
+
         &__text {
             padding-top: 32px;
             padding-bottom: 44px;
@@ -58,9 +59,10 @@ body {
             font-style: normal;
             font-weight: 300;
             line-height: 32px;
-        
-        
+
+
         }
+
         &__button {
 
             display: flex;
@@ -76,15 +78,11 @@ body {
             flex-shrink: 0;
             border-radius: 30px;
             background: #9C0332;
-            padding-bottom: 494px;
+            
         }
     }
 
 }
-
-
-
-
 
 .bold {
     color: #FFF;
@@ -97,58 +95,53 @@ body {
 
 
 
-
 .games {
-    
+
     background-color: #000915;
-}
-
-.games__nav {
-    padding-top: 128px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-}
-
-.games__nav__box {
-    
-    display: flex;
-    position: relative;
 
 
-}
+    &__nav {
+        padding-top: 128px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
 
-.games__nav__box_image {
+        &__box {
 
-    border-radius: 16px;
-    background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image), lightgray 50% / cover no-repeat;
-    border: none;
+            display: flex;
+            position: relative;
+
+            &_image {
+
+                border-radius: 16px;
+                background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image), lightgray 50% / cover no-repeat;
+                border: none;
+
+                &:hover {
+
+                    border-radius: 16px;
+                    border: 3px solid #44D2FF;
+
+                }
+            }
 
 
-}
+            &_number {
 
 
-.games__nav__box_image:hover {
-
-    border-radius: 16px;
-    border: 3px solid #44D2FF;
-
-}
-
-
-.games__nav__box_number {
-
-
-    justify-content: center;
-    flex-shrink: 0;
-    color: #FFF;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px;
-    position: absolute;
-    left: 32px;
-    bottom: 32px;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #FFF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 32px;
+                position: absolute;
+                left: 32px;
+                bottom: 32px;
+            }
+        }
+    }
 }
 
 @import 'mobile';
