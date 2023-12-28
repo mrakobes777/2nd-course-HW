@@ -82,6 +82,7 @@ body {
   background-color: #000915;
 }
 .games__nav {
+  padding-bottom: 128px;
   padding-top: 128px;
   display: flex;
   flex-wrap: wrap;
@@ -117,8 +118,5 @@ body {
   .center {
     padding-left: 16px;
     padding-right: 16px;
-  }
-  .games__nav__box_image {
-    width: 343px;
   }
 }/*# sourceMappingURL=style.css.map */
