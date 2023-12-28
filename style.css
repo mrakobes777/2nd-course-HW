@@ -80,13 +80,13 @@ body {
 }
 
 .games {
-  height: 556px;
   background-color: #000915;
 }
 
 .games__nav {
   padding-top: 128px;
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
@@ -98,8 +98,6 @@ body {
 .games__nav__box_image {
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image), lightgray 50%/cover no-repeat;
-  width: 379px;
-  height: 300px;
   border: none;
 }
 
@@ -109,7 +107,6 @@ body {
 }
 
 .games__nav__box_number {
-  height: 32px;
   justify-content: center;
   flex-shrink: 0;
   color: #FFF;
