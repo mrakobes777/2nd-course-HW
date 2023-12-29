@@ -14,7 +14,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-    
+
             &__title {
                 display: flex;
                 width: 343px;
@@ -29,7 +29,7 @@
                 font-weight: 700;
                 line-height: normal;
             }
-    
+
             &__text {
                 color: #FFF;
                 text-align: center;
@@ -39,22 +39,25 @@
                 line-height: 22px;
                 padding-bottom: 33px;
             }
-    
-    
+
+
         }
     }
 
-    
 
+    .phantom{
+        display: none;
+    }
 
 
     .bold {
 
         color: #FFF;
+        font-family: Montserrat;
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        line-height: 32px;
+        line-height: 22px;
 
     }
 
