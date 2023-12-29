@@ -24,19 +24,20 @@ body {
 
 
 .top {
-    
+
     background-image: url(img/top-back.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     outline: none;
     padding-bottom: 494px;
+    padding-top: 217px;
 
     &__content {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 217px;
+       
 
         &__title {
             display: flex;
@@ -52,7 +53,7 @@ body {
         }
 
         &__text {
-            padding-top: 32px;
+            padding-top: 33px;
             padding-bottom: 44px;
             color: #FFF;
             font-size: 18px;
@@ -78,7 +79,7 @@ body {
             flex-shrink: 0;
             border-radius: 30px;
             background: #9C0332;
-            
+
         }
     }
 
@@ -99,17 +100,21 @@ body {
 
     background-color: #000915;
 
+    &__img {
+        width: 100%;
+    }
 
     &__nav {
+
         padding-bottom: 128px;
         padding-top: 128px;
         display: flex;
-        flex-wrap: wrap;
         gap: 32px;
+        
+
 
         &__box {
 
-            display: flex;
             position: relative;
 
             &_image {
