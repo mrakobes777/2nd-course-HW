@@ -38,4 +38,51 @@ let arr = [9, 8, 7, "a", 6, 5];
 arr.sort((a, b) => a - b).pop();
 console.log(arr);
 
+//  Задание 7
+const arr = [9, 8, 7, 6, 5];
+const find = Number(prompt("Угадайте число:"));
+if (arr.includes(find)) {
+  alert("Угадал");
+} else {
+  alert("Не угадал");
+}
 
+// Задание 8
+const str = "abcdef";
+const reversedStr = str.split("").reverse().join("");
+console.log(reversedStr);
+
+// Задание 9
+const arr = [
+  [1, 2, 3],
+  [4, 5, 6]
+];
+const flatArr = arr.flat();
+console.log(flatArr);
+
+// Задание 10
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i = 0; i < arr.length - 1; i++) {
+  console.log(arr[i] + arr[i + 1]);
+}
+
+// Задание 11
+function getSquareNumbers(arr) {
+  return arr.map((num) => num * num);
+}
+
+// Задание 12
+function getLengthWords(words) {
+  return words.map((word) => word.length);
+}
+
+// Задание 13
+function filterPositive(array) {
+  let result = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] < 0) {
+      result.push(array[1]);
+    }
+  }
+  return result;
+}
